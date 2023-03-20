@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+h1 {
+    color: #808080;
+    font-family: 'roboto condensed', sans-serif;
+    font-size: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 10% 0;
+}
+
+#menu {
+    color:black;
+    text-align: left;
+    list-style-type: none;
+}
+
+#menu li {
+    float: left;
+    margin: 0 4%;
+}
+
+body {
+    font-family: roboto, sans-serif;
+    color: #808080;
+}
