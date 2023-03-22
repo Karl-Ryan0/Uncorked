@@ -92,3 +92,19 @@ h1, h2 {
     padding: 2% 0;
 }
 
+.contact {
+    
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+fieldset {
+    border-radius: 15px;
+}
