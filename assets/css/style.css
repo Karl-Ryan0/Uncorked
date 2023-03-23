@@ -65,6 +65,17 @@ body {
     background: url("../images/hero.png") no-repeat center center;
     overflow: hidden;
     position: relative;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+        transform: scale(0.9);
+    }
 }
 
 .social {
