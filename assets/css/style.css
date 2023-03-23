@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap');
 
 
-#menu {
-    background-color: aqua;
+.menu {
+    background-color: white;
 }
 
 h1, h2 {
@@ -18,29 +18,29 @@ p{
     font-family: roboto, sans-serif;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: green;
     text-align: left;
     float: left;
     font-size: 17px;
     overflow: hidden;
-    background-color: aqua;
+    background-color: white;
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 1px solid black;
 }
 
 .active {
     border-bottom: 1px solid black;
-    background-color: yellow;
 }
 
-#menu li {
+.menu li {
     list-style-type: none;
     margin: 0 1%;
     display: inline-block;
+    
     
 
 }
@@ -74,13 +74,13 @@ body {
 @keyframes hero-zoom {
     from{
         transform: scale(1);
-        transform: scale(0.9);
+        transform: scale(1.1);
     }
 }
 
 .social {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .social li {
@@ -140,14 +140,46 @@ footer {
     width: 100%;
     margin-bottom: 30px;
     color: white;
+    opacity: 0.5;
 }
 
 footer a {
     text-decoration: none;
     color: white;
+    bottom: 0px;
 }
 
 footer p {
     text-decoration: none;
     color: white;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color:white;
+    margin: 0 1%;
+    font-size: 17px;
+    border: none;
+    text-align: left;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content > a {
+        padding-top: 10px;
+  }
+  
