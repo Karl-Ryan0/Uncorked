@@ -11,8 +11,8 @@
 </head>
 <body>
     <header>
-        <a href="index.html">
-            <h1 id="logo">Uncorked Winemaking</h1>
+        <a id="logo" href="index.html">
+            <h1>Uncorked Winemaking</h1>
         </a>
         <nav  id="menu">
             <ul>
@@ -30,12 +30,14 @@
                 </li>
             </ul>
         </nav>
+        <hr>
     </header>
     <div id="hero-image">
     
     </div>
-    <section class="intro-page">
+    <section class="content">
         <h2>Introduction</h2>
+        <hr>
         <p>
             Welcome to our winemaking hobbyist website! My name is Karl and I've been producing 
             homebrew wine for a number of years now. If you're interested in learning the craft of 
@@ -61,8 +63,9 @@
                 discovered the joy of creating their own wine. Cheers!
             </p>
     </section>
-    <section class="intro-page">
+    <section class="content">
         <h2>Equipment</h2>
+        <hr>
         <p>
             Some of the most common equipment you'll need:
         </p>
@@ -75,7 +78,7 @@
     </section>
     
     <footer>
-        <h2>Subscribe to our newsletter:</h2>
+        <h2>Subscribe:</h2>
         <form class="contact" method="post" action="https://formdump.codeinstitute.net/">
                 <fieldset>
                 <legend>Personal Info:</legend>
@@ -86,8 +89,8 @@
                 <label for="lname">Email Address:</label>
                 <input type="email" id="email" name="email" required placeholder="Enter email address here:">
                 <label for="hear-about">How did you hear about us?</label>
-                <input list="hear-about" required placeholder="Please Select">
-                <datalist id="hear-about">
+                <input list="hear-about-us" name="hear-about" id="hear-about" required placeholder="Please Select">
+                <datalist id="hear-about-us">
                   <option value="Facebook">
                   <option value="Google Search">
                   <option value="Twitter">

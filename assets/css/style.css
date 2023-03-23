@@ -5,6 +5,14 @@
     background-color: aqua;
 }
 
+h1, h2 {
+    font-family: "roboto condensed", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+}
 p{
     color: black;
     font-family: roboto, sans-serif;
@@ -71,25 +79,19 @@ body {
     font-size: 120%;
 }
 
-.intro-page{
+.content{
 
     margin: 5%  5%;
     height: auto;
-}
+    background-color: burlywood;
 
-h1, h2 {
-    font-family: "roboto condensed", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    width: 100%;
-    text-decoration: none;
-    font-size: medium;
-    text-align: center;
 }
 
 #logo{
     text-decoration: none;
     padding: 2% 0;
+    color: #808080;
+    font-size: medium;
 }
 
 .contact {
