@@ -40,13 +40,17 @@ p{
     list-style-type: none;
     margin: 0 1%;
     display: inline-block;
-    
-    
-
 }
+
+.content > ul {
+    color: black;
+    margin-left: 3%;
+}   
 
 ul {
     padding: 0 3%;
+
+
 }
 body {
     font-family: roboto, sans-serif;
