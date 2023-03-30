@@ -13,6 +13,10 @@ h1, h2 {
     text-decoration: none;
     text-align: center;
 }
+
+h3{
+    text-align: center;
+}
 p{
     color: black;
     font-family: roboto, sans-serif;
