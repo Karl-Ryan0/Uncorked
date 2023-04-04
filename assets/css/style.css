@@ -123,7 +123,18 @@ ol > li {
     background-color: burlywood;
 
 }
+.jump {
+    text-decoration: none;
+    color: #808080;
+}
 
+.recipe{
+
+    margin: 5%  5%;
+    height: auto;
+    border: 2px solid rgb(0, 102, 128);
+
+}
 #logo{
     text-decoration: none;
     padding: 2% 0;
