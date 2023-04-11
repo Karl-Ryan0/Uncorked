@@ -2,7 +2,7 @@
 
 
 .menu {
-    background-color: white;
+    background-color: #70256f;
 }
 
 h1, h2 {
@@ -31,12 +31,12 @@ p{
 
 .menu a {
     text-decoration: none;
-    color: green;
+    color: white;
     text-align: left;
     float: left;
     font-size: 17px;
     overflow: hidden;
-    background-color: white;
+    background-color: #70256f;
 }
 
 .menu a:hover {
@@ -194,18 +194,20 @@ footer p {
   }
   
   .dropbtn {
-    background-color:white;
+    background-color:#70256f;
     margin: 0 1%;
     font-size: 17px;
+    color: white;
     border: none;
     text-align: left;
+    font-family: roboto, sans-serif;
   }
   
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
+    background-color: #70256f;
+    min-width: 200px;
     z-index: 1;
   }
 
