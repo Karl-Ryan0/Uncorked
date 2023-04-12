@@ -124,14 +124,17 @@ ol > li {
     color: #808080;
 }
 
+.social i:hover{
+    color:#70256f
+}
+
 .content{
 
     margin: 5%  5%;
     height: auto;
     border-bottom: 2px solid #70256f;
-
-
 }
+
 .jump {
     text-decoration: none;
     color: #808080;
