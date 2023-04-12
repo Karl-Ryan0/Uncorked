@@ -67,6 +67,7 @@ p{
 
 ul {
     padding: 0 3%;
+    height: 30px;
 
 
 }
@@ -216,6 +217,7 @@ footer p {
   .dropdown-content {
     display: none;
     position: absolute;
+    margin-top: 20px;
     background-color: #70256f;
     min-width: 200px;
     z-index: 1;
