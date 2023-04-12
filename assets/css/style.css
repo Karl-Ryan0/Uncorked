@@ -65,11 +65,15 @@ p{
     margin-left: 3%;
 }   
 
-ul {
+header > ul {
     padding: 0 3%;
     height: 30px;
 
 
+}
+
+ul {
+    padding: 0 3%;
 }
 body {
     font-family: roboto, sans-serif;
