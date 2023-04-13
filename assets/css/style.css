@@ -159,8 +159,9 @@ ol > li {
     font-size: medium;
 }
 
-.contact {
-    
+.contact, .ideas {
+    margin: 5%  5%;
+    height: auto;
 }
 
 input[type="text"], input[type="email"], input[type="password"], textarea {
@@ -247,6 +248,17 @@ footer p {
         animation-duration: 5s;
         animation-fill-mode: forwards;
     }
+
+    .content{
+
+        margin: 3%  10%;
+        height: auto;
+        border-bottom: 2px solid #70256f;
+    }
+    .contact, .ideas, .recipe, .content {
+        margin: 3%  10%;
+        height: auto;
+    }
   }
   @media only screen and (min-width: 1200px){
     #hero-image{
@@ -259,6 +271,11 @@ footer p {
         animation-name: hero-zoom;
         animation-duration: 5s;
         animation-fill-mode: forwards;
+    }
+
+    .contact, .ideas, .recipe, .content {
+        margin: 3%  15%;
+        height: auto;
     }
     
   }
