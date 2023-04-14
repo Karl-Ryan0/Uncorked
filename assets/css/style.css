@@ -1,10 +1,11 @@
+/* importing google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap');
 
-
+/*adds purple to the .menu class for link background */
 .menu {
     background-color: #70256f;
 }
-
+/* styles headings 1 and 2 */
 h1, h2 {
     font-family: "roboto condensed", sans-serif;
     text-transform: uppercase;
@@ -13,29 +14,32 @@ h1, h2 {
     text-decoration: none;
     text-align: center;
 }
-
+/* styles horizontal line */
 hr{
     border-top: 2px solid #70256f;
 }
 
+/* radius for appearance, image to size based on the size of the screen */
 img{
     width: 60%;
     border-radius: 15px;
 }
+/*aligns heading 3 to the center */
 h3{
     text-align: center;
 }
+/* font anc colour for the paragraph tag */
 p{
     color: black;
     font-family: roboto, sans-serif;
 }
-
+/* this flexbox will contain the image, and will stretch the image to make it look good at any size*/
 .images{
     display: flex;
     justify-content: center;
     
 }
-
+/* links inside the menu class will be styled seperately to other links */
 .menu a {
     text-decoration: none;
     color: white;
@@ -45,21 +49,21 @@ p{
     overflow: hidden;
     background-color: #70256f;
 }
-
+/* white underline when focused */
 .menu a:hover {
     border-bottom: 1px solid white;
 }
-
+/* white underline to illustrate the page the user is on */
 .active {
     border-bottom: 1px solid white;
 }
-
+/* the menu is a list, and this will ensure the links are aligned properly */
 .menu li {
     list-style-type: none;
     margin: 0 1%;
     display: inline-block;
 }
-
+/* there was initially a clash with the header and content lists, so these two here address that */
 .content > ul {
     color: black;
     margin-left: 3%;
@@ -68,31 +72,32 @@ p{
 header > ul {
     padding: 0 3%;
     height: 30px;
-
-
 }
-
+/* pads lists inside their sections */
 ul {
     padding: 0 3%;
 }
+/* adds font and colour to the body element */
 body {
     font-family: roboto, sans-serif;
     color: #808080;
 }
-
+/* to change the font color of ordered lists for the recipes sections */
 ol{
     color: black;
 }
-
+/* pads the ordered lists to aid readability */
 ol > li {
     margin-bottom: 5px;
 }
+/* equipment class styles the equipment and ingredients section of the recipes pages */
 .equipment{
     list-style-type: disc;
     font-size: medium;
     color:aquamarine;
     margin-left: 20%;
 }
+/* splash image on the hopepage. Styles it to zoom in with keyfrmames, zooming in over a 5 second period. */
 #hero-image{
     width: 100%;
     height: 600px;
@@ -113,7 +118,7 @@ ol > li {
         transform: scale(0.9);
     }
 }
-
+/* social links here, aligned, coloured, and will turn purple when hovered. Add some padding to seperate the links */
 .social {
     text-align: center;
     padding-bottom: 60px;
@@ -132,38 +137,37 @@ ol > li {
 .social i:hover{
     color:#70256f
 }
-
+/* content class, adds margin and a line at the bottom with the same colour used throughout the site */
 .content{
 
     margin: 5%  5%;
     height: auto;
     border-bottom: 2px solid #70256f;
 }
-
+/* small class to add to the jump to top link */
 .jump {
     text-decoration: none;
     color: #808080;
 }
-
+/* styles the recipe classes in the wines pages */
 .recipe{
-
     margin: 5%  5%;
     height: auto;
     border: 2px solid #70256f;
-
 }
+/* this is the logo at the top of the page, styled accordingly */
 #logo{
     text-decoration: none;
     padding: 2% 0;
     color: #70256f;
     font-size: medium;
 }
-
+/* contact and ideas classes are styled the same so combined rule for efficiency */
 .contact, .ideas {
     margin: 5%  5%;
     height: auto;
 }
-
+/* this styles the input boxes to match colour theme and improve visuals */
 input[type="text"], input[type="email"], input[type="password"], textarea {
     width: 100%;
     padding: 10px;
@@ -173,6 +177,7 @@ input[type="text"], input[type="email"], input[type="password"], textarea {
     margin-bottom: 10px;
     box-sizing: border-box;
   }
+  /* border to make fieldset match form content */
 fieldset {
     border-radius: 15px;
     border: 2px solid #70256f;
@@ -181,7 +186,7 @@ fieldset {
 .footer{
 
 }
-
+/* styles the footer and locks it to the bottom of the page */
 footer {
     height: fit-content;
     font-size: medium;
@@ -192,18 +197,18 @@ footer {
     width: 100%;
     color: white;
 }
-
+/* decorates footer links */
 footer a {
     text-decoration: none;
     color: white;
     bottom: 0px;
 }
-
+/* decorates footer text */
 footer p {
     text-decoration: none;
     color: white;
 }
-
+/* this is a drop down link that contains links to the wine pages. Styled to match the appearance of the menu and fixed in position*/
 .dropdown {
     position: relative;
     display: inline-block;
@@ -228,12 +233,6 @@ footer p {
     z-index: 1;
   }
 
-  iframe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
- }
-
   .dropdown:hover .dropdown-content {
     display: block;
   }
@@ -241,7 +240,14 @@ footer p {
   .dropdown-content > a {
         padding-top: 10px;
   }
-  
+  /* testing some video attributes */
+  iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+/* media queries for responsiveness. There are 3 different images that are pulled if there are different size screens, as well as content classes that will resize based on the size, to 
+add additional padding on larger screens to ease readability */
   @media only screen and (min-width: 600px){
     #hero-image{
         width: 100%;
