@@ -293,3 +293,22 @@ add additional padding on larger screens to ease readability */
     }
     
   }
+
+  /* this is the styling for the 404 page */
+
+  .error > h1 {
+    font-size: 70px;
+    text-align: center;
+    color: grey;
+  }
+
+  .error > h2 {
+    font-size: 30px;
+    text-align: center;
+    color: purple;
+  }
+
+  .error > p {
+    font-size: large;
+    text-align: center;
+  }
