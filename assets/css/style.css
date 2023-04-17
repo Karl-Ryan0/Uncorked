@@ -208,6 +208,22 @@ footer p {
     text-decoration: none;
     color: white;
 }
+
+/* This section will allow the video to resize itself based on the size of the screen*/  
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin-bottom: 5%;
+  } 
+  .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
 /* this is a drop down link that contains links to the wine pages. Styled to match the appearance of the menu and fixed in position*/
 .dropdown {
     position: relative;
@@ -269,9 +285,6 @@ add additional padding on larger screens to ease readability */
     .contact, .ideas, .recipe, .content {
         margin: 3%  10%;
         height: auto;
-    }
-    .video { 
-        width: 95%;
     }
   }
   @media only screen and (min-width: 1200px){
