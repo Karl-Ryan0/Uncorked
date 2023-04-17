@@ -1,12 +1,58 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<p align="center">
+  <img src="assets/images/readme.png" alt="Uncorked Winemaking Logo">
+</p>
+<p align="center">
+  <img src="assets/images/responsiveness.png" alt="Responsive design images">
+</p>
 
-Welcome Karl Ryan,
+Uncorked winemaking is desigend for the newcomer to learn about brewing wine at home with some simple tools and equipment. I have been brewing my own wine for a number of years and found it to be a cheap and rewarding hobby. As Ireland is subjected to more and more stringent regulations around the sale of alcohol, now is a good time for the hobbyist to learn about it themselves and get started. I wanted the site to be somewhat minimalistic with clearly defined sections.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Contents
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+---
+## UX
+### Visitor Goals
+The target audience for Uncorked Winemaking are:
+* Newcomers looking for a new hobby.
+* Enthusiasts looking for different recipes.
+* People looking for a cheap solution.
+* People who want full control of the ingredients.
 
-## Gitpod Reminders
+Users are able to:
+* Learn about the processes.
+* Understand what steps are required.
+* Learn about the equipment.
+* Learn specific steps on some of my favourite recipes.
+* Submit their own ideas.
+* Subscribe to a mailing list.
+
+### User Suggestions
+1. I would like photos of the wine to be created.
+2. I would like a full step by step guide.
+3. I would like to see photos of some of the more specialised equipment.
+4. I would like some tips to give it my own personal touch.
+5. I would like to be able to submit my ideas.
+---
+## Design
+
+### Fonts
+Fonts were taken from google fonts. I used Roboto for the main font in the site and Roboto Condensed for the headers, as these fonts do compliment each other quite well making for an eyecatching and uniform reading experience.
+
+### Icons
+<p align="center">
+  <img src="assets/images/icons.png" alt="Social Media Icons">
+</p>
+Icons were taken from fontawesome library and are styled with the utilised as classes in the css file. These are styled to match the colour theme of the site, with a hover subclass to match the colour of the site.
+
+### Colour Scheme
+<p align="center">
+  <img src="assets/images/palette.png" alt="Colour Palette">
+</p>
+
+
+
+
+
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
