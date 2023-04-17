@@ -90,13 +90,7 @@ ol{
 ol > li {
     margin-bottom: 5px;
 }
-/* equipment class styles the equipment and ingredients section of the recipes pages */
-.equipment{
-    list-style-type: disc;
-    font-size: medium;
-    color:aquamarine;
-    margin-left: 20%;
-}
+
 /* splash image on the hopepage. Styles it to zoom in with keyfrmames, zooming in over a 5 second period. */
 #hero-image{
     width: 100%;
@@ -183,9 +177,6 @@ fieldset {
     border: 2px solid #70256f;
 }
 
-.footer{
-
-}
 /* styles the footer and locks it to the bottom of the page */
 footer {
     height: fit-content;
