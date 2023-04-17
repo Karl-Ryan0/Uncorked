@@ -255,12 +255,7 @@ footer p {
   .dropdown-content > a {
         padding-top: 10px;
   }
-  /* testing some video attributes */
-  iframe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
- }
+
 /* media queries for responsiveness. There are 3 different images that are pulled if there are different size screens, as well as content classes that will resize based on the size, to 
 add additional padding on larger screens to ease readability */
   @media only screen and (min-width: 600px){
