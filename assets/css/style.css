@@ -248,7 +248,7 @@ footer p {
   }
 
 /* media queries for responsiveness. There are 3 different images that are pulled if there are different size screens, as well as content classes that will resize based on the size, to 
-add additional padding on larger screens to ease readability */
+add additional padding on larger screens to ease readability. Font will increase in size for larger screens */
   @media only screen and (min-width: 600px){
     #hero-image{
         width: 100%;
@@ -261,6 +261,21 @@ add additional padding on larger screens to ease readability */
         animation-duration: 5s;
         animation-fill-mode: forwards;
     }
+    h1, h2{
+        font-size: 40px;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+    p, fieldset{
+        font-size: 20px;
+    }
+
+    ul > li, ol > li {
+        font-size: 20px;
+    }
+
 
     .content{
 
@@ -272,6 +287,9 @@ add additional padding on larger screens to ease readability */
         margin: 3%  10%;
         height: auto;
     }
+    input[type="text"], input[type="email"], input[type="password"], textarea {
+        font-size: 20px;
+      }
   }
   @media only screen and (min-width: 1200px){
     #hero-image{
