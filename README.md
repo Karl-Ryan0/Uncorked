@@ -112,19 +112,17 @@ I decided to go with a minimilistic approach with the colour scheme. I settled o
 
 ### Testing
 * My site was sent to friends and family for feedback and testing.
-* The hero-zoom animation has been tested on multiple devices.
-* The forms are validated and will not submit with improper information.
+* The hero-zoom animation on the homepage has been tested on multiple devices.
+* The forms are validated to check for input from the user and will not submit with improper information.
 * External links open in a new tab.
-* As the site was built using a Windows 11 PC, majority of the testing was done on this machine in Chrome.
+* As the site was built using a Windows 11 PC, majority of the testing was done on this machine in Chrome using devtools.
 * Tested personally on a Windows 10 laptop with a smaller screen and my personal Android device.
 * Tested personally in Chrome and Bing.
-* Multiple Android and IOS devices used to test by family and friends.
+* Multiple Android and IOS devices used to test by family and friends who reported no errors in the site.
 
 ### Bugs Found
-* Video would initially not scale properly, attempted to fit it inside the same flexbox as the images, eventually corrected by creating new classes specifically for it.
-* Drop down link was out of vertical alignment. I started with a button but eventually changed to a link which pushed it into alignment.
-* Above correction caused the drop down menu to sit on top of the menu, this was corrected with a small margin on top.
-* Above caused other unordeded lists to clash and display on top of one another, fixed by adding a new specific class for the menu.
+* Video on the tips.html page would initially not scale properly and would remain at 320px/240px regardless of screen size. I initially attempted to fit it inside the same flexbox as the images but this had no effect. eventually corrected by creating new classes .video and .video iframe.
+* Drop down link was out of vertical alignment - there was a large gap between the links and the navigation bar. Initially I attempted to use a simple paragraph with a hover but this resulted in the list being on top of the navigation bar, concealing it This was corrected with a small margin. I attempted to use a button but I couldn't get the styling right, so an empty link was used instead.
 * Slow connections can cause the images to load slowly, and look like the top of the page is mostly blank.
 
 ### Deployment
