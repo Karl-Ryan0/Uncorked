@@ -311,6 +311,13 @@ add additional padding on larger screens to ease readability. Font will increase
     
   }
 
+  @media only screen and (max-width: 800px){
+    img{
+        width: 100%;
+        border-radius: 15px;
+    }
+  }
+
   /* this is the styling for the 404 page */
 
   .error > h1 {
