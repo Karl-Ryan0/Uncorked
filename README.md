@@ -89,5 +89,19 @@ I decided to go with a minimilistic approach with the colour scheme. I settled o
 * Above correction caused the drop down menu to sit on top of the menu, this was corrected with a small margin on top.
 * Above caused other unordeded lists to clash and display on top of one another, fixed by adding a new specific class for the menu.
 
+### Deployment
+This site was deployed to GitHub pages. The steps to deploy are as follows:
+
+1. Navigate to [https://github.com/Karl-Ryan0/Uncorked](https://github.com/Karl-Ryan0/Uncorked).
+2. You can set up your own repository and copy or clone it, or you fork the repository.
+3. `git add`, `git commit` and `git push` to a GitHub repository, if necessary.
+4. GitHub pages will update from the master branch by default.
+5. Go to the **Settings** page of the repository.
+6. Scroll down to the **Github Pages** section.
+7. Select the Master Branch as the source and **Confirm** the selection.
+8. Wait a minute or two and it should be live for viewing.
+
+Live link can be found [here](https://karl-ryan0.github.io/Uncorked/index.html).
+
 ## Credits
 Some text content created using [chat.openai.com](https://chat.openai.com/) but the majority of content and instructions are freehand based on my own experiences and knowledge. Images were all created using the Photosonic section of [Writesonic](https://app.writesonic.com/). [favicon.io](https://favicon.io/) was used to create the favicon on the site.
