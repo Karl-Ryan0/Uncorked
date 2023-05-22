@@ -26,6 +26,49 @@ Users are able to:
 4. I would like some tips to give it my own personal touch.
 5. I would like to be able to submit my ideas.
 
+## Features
+
+### Homepage
+![Homepage](assets/images/main-page.png)
+* Features
+  - Centred logo image.
+  - Navigation bar indicating the sites links.
+  - Brief introduction.
+  - Common equipment and ingredients lists.
+  - Mailing list form.
+  - Social media links.
+  - Floating footer with a 'back to top' anchor link.
+
+### The Wines
+![Wine Pages](assets/images/wine-pages.png)
+* Features
+  - Centred logo image.
+  - Navigation bar indicating the sites links.
+  - Image of the wine to be created.
+  - Paragraphs talking about the wine itself.
+  - Step by step instructions.
+  - Tips section.
+  - Social media links.
+  - Floating footer with a 'back to top' anchor link.
+
+  ### Tips
+![Tips and Tricks](assets/images/tips-page.png)
+* Features
+  - Centred logo image.
+  - Navigation bar indicating the sites links.
+  - Some common tips with images and links.
+  - A YouTube video with instructions on making beer.
+  - Social media links.
+  - Floating footer with a 'back to top' anchor link.
+
+  ### Idea Submission
+![Idea Submission](assets/images/ideas-page.png)
+* Features
+  - Centred logo image.
+  - Navigation bar indicating the sites links.
+  - Paragraph asking users to submit their own ideas.
+  - User submission form for the above.
+  - Floating footer with a 'back to top' anchor link.
 ## Design
 
 ### Fonts
