@@ -88,6 +88,7 @@ I decided to go with a minimilistic approach with the colour scheme. I settled o
 * Drop down link was out of vertical alignment. I started with a button but eventually changed to a link which pushed it into alignment.
 * Above correction caused the drop down menu to sit on top of the menu, this was corrected with a small margin on top.
 * Above caused other unordeded lists to clash and display on top of one another, fixed by adding a new specific class for the menu.
+* Slow connections can cause the images to load slowly, and look like the top of the page is mostly blank.
 
 ### Deployment
 This site was deployed to GitHub pages. The steps to deploy are as follows:
