@@ -1,9 +1,5 @@
-<p align="center">
-  <img src="assets/images/readme.png" alt="Uncorked Winemaking Logo">
-</p>
-<p align="center">
-  <img src="assets/images/responsiveness.png" alt="Responsive design images">
-</p>
+![Uncorked Winemaking Logo](assets/images/readme.png)
+![Responsive design images](assets/images/responsiveness.png)
 
 Uncorked winemaking is desigend for the newcomer to learn about brewing wine at home with some simple tools and equipment. I have been brewing my own wine for a number of years and found it to be a cheap and rewarding hobby. As Ireland is subjected to more and more stringent regulations around the sale of alcohol, now is a good time for the hobbyist to learn about it themselves and get started. I wanted the site to be somewhat minimalistic with clearly defined sections.
 
@@ -36,15 +32,13 @@ Users are able to:
 Fonts were taken from google fonts. I used Roboto for the main font in the site and Roboto Condensed for the headers, as these fonts do compliment each other quite well making for an eyecatching and uniform reading experience.
 
 ### Icons
-<p align="center">
-  <img src="assets/images/icons.png" alt="Social Media Icons">
-</p>
+![Social Media Icons](assets/images/icons.png)
+
 Icons were taken from fontawesome library and are styled with the utilised as classes in the css file. These are styled to match the colour theme of the site, with a hover subclass to match the colour of the site.
 
 ### Colour Scheme
-<p align="center">
-  <img src="assets/images/palette.png" alt="Colour Palette">
-</p>
+![Colour Palette](assets/images/palette.png)
+
 I decided to go with a minimilistic approach with the colour scheme. I settled on a purple theme across the site to relate to a red wine. Menu bar, logo, horizontal lines, forms and instruction steps are all purple.  All text is black, with the exception of sub headings, menu links and locked footer.
 
 ### Styling
